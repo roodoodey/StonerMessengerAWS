@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8814A2371D5F9C9200EFBFDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814A2361D5F9C9200EFBFDF /* AppDelegate.swift */; };
+		8814A2391D5F9C9200EFBFDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814A2381D5F9C9200EFBFDF /* ViewController.swift */; };
+		8814A23C1D5F9C9200EFBFDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814A23A1D5F9C9200EFBFDF /* Main.storyboard */; };
+		8814A23F1D5F9C9200EFBFDF /* StonerMessengerAWS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8814A23D1D5F9C9200EFBFDF /* StonerMessengerAWS.xcdatamodeld */; };
+		8814A2411D5F9C9200EFBFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8814A2401D5F9C9200EFBFDF /* Assets.xcassets */; };
+		8814A2441D5F9C9200EFBFDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814A2421D5F9C9200EFBFDF /* LaunchScreen.storyboard */; };
+		8814A24F1D5F9C9300EFBFDF /* StonerMessengerAWSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814A24E1D5F9C9300EFBFDF /* StonerMessengerAWSTests.swift */; };
+		8814A25A1D5F9C9300EFBFDF /* StonerMessengerAWSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814A2591D5F9C9300EFBFDF /* StonerMessengerAWSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8814A24B1D5F9C9300EFBFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8814A22B1D5F9C9200EFBFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8814A2321D5F9C9200EFBFDF;
+			remoteInfo = StonerMessengerAWS;
+		};
+		8814A2561D5F9C9300EFBFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8814A22B1D5F9C9200EFBFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8814A2321D5F9C9200EFBFDF;
+			remoteInfo = StonerMessengerAWS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8814A2331D5F9C9200EFBFDF /* StonerMessengerAWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StonerMessengerAWS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8814A2361D5F9C9200EFBFDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8814A2381D5F9C9200EFBFDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8814A23B1D5F9C9200EFBFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8814A23E1D5F9C9200EFBFDF /* StonerMessengerAWS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StonerMessengerAWS.xcdatamodel; sourceTree = "<group>"; };
+		8814A2401D5F9C9200EFBFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8814A2431D5F9C9200EFBFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8814A2451D5F9C9200EFBFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8814A24A1D5F9C9300EFBFDF /* StonerMessengerAWSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StonerMessengerAWSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8814A24E1D5F9C9300EFBFDF /* StonerMessengerAWSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonerMessengerAWSTests.swift; sourceTree = "<group>"; };
+		8814A2501D5F9C9300EFBFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8814A2551D5F9C9300EFBFDF /* StonerMessengerAWSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StonerMessengerAWSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8814A2591D5F9C9300EFBFDF /* StonerMessengerAWSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonerMessengerAWSUITests.swift; sourceTree = "<group>"; };
+		8814A25B1D5F9C9300EFBFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8814A2301D5F9C9200EFBFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814A2471D5F9C9300EFBFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814A2521D5F9C9300EFBFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8814A22A1D5F9C9200EFBFDF = {
+			isa = PBXGroup;
+			children = (
+				8814A2351D5F9C9200EFBFDF /* StonerMessengerAWS */,
+				8814A24D1D5F9C9300EFBFDF /* StonerMessengerAWSTests */,
+				8814A2581D5F9C9300EFBFDF /* StonerMessengerAWSUITests */,
+				8814A2341D5F9C9200EFBFDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8814A2341D5F9C9200EFBFDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8814A2331D5F9C9200EFBFDF /* StonerMessengerAWS.app */,
+				8814A24A1D5F9C9300EFBFDF /* StonerMessengerAWSTests.xctest */,
+				8814A2551D5F9C9300EFBFDF /* StonerMessengerAWSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8814A2351D5F9C9200EFBFDF /* StonerMessengerAWS */ = {
+			isa = PBXGroup;
+			children = (
+				8814A2361D5F9C9200EFBFDF /* AppDelegate.swift */,
+				8814A2381D5F9C9200EFBFDF /* ViewController.swift */,
+				8814A23A1D5F9C9200EFBFDF /* Main.storyboard */,
+				8814A2401D5F9C9200EFBFDF /* Assets.xcassets */,
+				8814A2421D5F9C9200EFBFDF /* LaunchScreen.storyboard */,
+				8814A2451D5F9C9200EFBFDF /* Info.plist */,
+				8814A23D1D5F9C9200EFBFDF /* StonerMessengerAWS.xcdatamodeld */,
+			);
+			path = StonerMessengerAWS;
+			sourceTree = "<group>";
+		};
+		8814A24D1D5F9C9300EFBFDF /* StonerMessengerAWSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8814A24E1D5F9C9300EFBFDF /* StonerMessengerAWSTests.swift */,
+				8814A2501D5F9C9300EFBFDF /* Info.plist */,
+			);
+			path = StonerMessengerAWSTests;
+			sourceTree = "<group>";
+		};
+		8814A2581D5F9C9300EFBFDF /* StonerMessengerAWSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8814A2591D5F9C9300EFBFDF /* StonerMessengerAWSUITests.swift */,
+				8814A25B1D5F9C9300EFBFDF /* Info.plist */,
+			);
+			path = StonerMessengerAWSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8814A2321D5F9C9200EFBFDF /* StonerMessengerAWS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8814A25E1D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWS" */;
+			buildPhases = (
+				8814A22F1D5F9C9200EFBFDF /* Sources */,
+				8814A2301D5F9C9200EFBFDF /* Frameworks */,
+				8814A2311D5F9C9200EFBFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StonerMessengerAWS;
+			productName = StonerMessengerAWS;
+			productReference = 8814A2331D5F9C9200EFBFDF /* StonerMessengerAWS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8814A2491D5F9C9300EFBFDF /* StonerMessengerAWSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8814A2611D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWSTests" */;
+			buildPhases = (
+				8814A2461D5F9C9300EFBFDF /* Sources */,
+				8814A2471D5F9C9300EFBFDF /* Frameworks */,
+				8814A2481D5F9C9300EFBFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8814A24C1D5F9C9300EFBFDF /* PBXTargetDependency */,
+			);
+			name = StonerMessengerAWSTests;
+			productName = StonerMessengerAWSTests;
+			productReference = 8814A24A1D5F9C9300EFBFDF /* StonerMessengerAWSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8814A2541D5F9C9300EFBFDF /* StonerMessengerAWSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8814A2641D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWSUITests" */;
+			buildPhases = (
+				8814A2511D5F9C9300EFBFDF /* Sources */,
+				8814A2521D5F9C9300EFBFDF /* Frameworks */,
+				8814A2531D5F9C9300EFBFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8814A2571D5F9C9300EFBFDF /* PBXTargetDependency */,
+			);
+			name = StonerMessengerAWSUITests;
+			productName = StonerMessengerAWSUITests;
+			productReference = 8814A2551D5F9C9300EFBFDF /* StonerMessengerAWSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8814A22B1D5F9C9200EFBFDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Konta ehf.";
+				TargetAttributes = {
+					8814A2321D5F9C9200EFBFDF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8814A2491D5F9C9300EFBFDF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8814A2321D5F9C9200EFBFDF;
+					};
+					8814A2541D5F9C9300EFBFDF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8814A2321D5F9C9200EFBFDF;
+					};
+				};
+			};
+			buildConfigurationList = 8814A22E1D5F9C9200EFBFDF /* Build configuration list for PBXProject "StonerMessengerAWS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8814A22A1D5F9C9200EFBFDF;
+			productRefGroup = 8814A2341D5F9C9200EFBFDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8814A2321D5F9C9200EFBFDF /* StonerMessengerAWS */,
+				8814A2491D5F9C9300EFBFDF /* StonerMessengerAWSTests */,
+				8814A2541D5F9C9300EFBFDF /* StonerMessengerAWSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8814A2311D5F9C9200EFBFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814A2441D5F9C9200EFBFDF /* LaunchScreen.storyboard in Resources */,
+				8814A2411D5F9C9200EFBFDF /* Assets.xcassets in Resources */,
+				8814A23C1D5F9C9200EFBFDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814A2481D5F9C9300EFBFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814A2531D5F9C9300EFBFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8814A22F1D5F9C9200EFBFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814A23F1D5F9C9200EFBFDF /* StonerMessengerAWS.xcdatamodeld in Sources */,
+				8814A2391D5F9C9200EFBFDF /* ViewController.swift in Sources */,
+				8814A2371D5F9C9200EFBFDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814A2461D5F9C9300EFBFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814A24F1D5F9C9300EFBFDF /* StonerMessengerAWSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8814A2511D5F9C9300EFBFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8814A25A1D5F9C9300EFBFDF /* StonerMessengerAWSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8814A24C1D5F9C9300EFBFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8814A2321D5F9C9200EFBFDF /* StonerMessengerAWS */;
+			targetProxy = 8814A24B1D5F9C9300EFBFDF /* PBXContainerItemProxy */;
+		};
+		8814A2571D5F9C9300EFBFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8814A2321D5F9C9200EFBFDF /* StonerMessengerAWS */;
+			targetProxy = 8814A2561D5F9C9300EFBFDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8814A23A1D5F9C9200EFBFDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8814A23B1D5F9C9200EFBFDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8814A2421D5F9C9200EFBFDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8814A2431D5F9C9200EFBFDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8814A25C1D5F9C9300EFBFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8814A25D1D5F9C9300EFBFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8814A25F1D5F9C9300EFBFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StonerMessengerAWS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konta.StonerMessengerAWS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8814A2601D5F9C9300EFBFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StonerMessengerAWS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konta.StonerMessengerAWS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8814A2621D5F9C9300EFBFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StonerMessengerAWSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konta.StonerMessengerAWSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StonerMessengerAWS.app/StonerMessengerAWS";
+			};
+			name = Debug;
+		};
+		8814A2631D5F9C9300EFBFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StonerMessengerAWSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konta.StonerMessengerAWSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StonerMessengerAWS.app/StonerMessengerAWS";
+			};
+			name = Release;
+		};
+		8814A2651D5F9C9300EFBFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StonerMessengerAWSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konta.StonerMessengerAWSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StonerMessengerAWS;
+			};
+			name = Debug;
+		};
+		8814A2661D5F9C9300EFBFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StonerMessengerAWSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.konta.StonerMessengerAWSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StonerMessengerAWS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8814A22E1D5F9C9200EFBFDF /* Build configuration list for PBXProject "StonerMessengerAWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8814A25C1D5F9C9300EFBFDF /* Debug */,
+				8814A25D1D5F9C9300EFBFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8814A25E1D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8814A25F1D5F9C9300EFBFDF /* Debug */,
+				8814A2601D5F9C9300EFBFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8814A2611D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8814A2621D5F9C9300EFBFDF /* Debug */,
+				8814A2631D5F9C9300EFBFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8814A2641D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8814A2651D5F9C9300EFBFDF /* Debug */,
+				8814A2661D5F9C9300EFBFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8814A23D1D5F9C9200EFBFDF /* StonerMessengerAWS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8814A23E1D5F9C9200EFBFDF /* StonerMessengerAWS.xcdatamodel */,
+			);
+			currentVersion = 8814A23E1D5F9C9200EFBFDF /* StonerMessengerAWS.xcdatamodel */;
+			path = StonerMessengerAWS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8814A22B1D5F9C9200EFBFDF /* Project object */;
+}
