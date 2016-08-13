@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868D12BE3CC3F7651D8BD354 /* Pods_StonerMessengerAWSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCAE627ABEA35366A09AC19 /* Pods_StonerMessengerAWSUITests.framework */; };
 		8814A2371D5F9C9200EFBFDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814A2361D5F9C9200EFBFDF /* AppDelegate.swift */; };
 		8814A2391D5F9C9200EFBFDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814A2381D5F9C9200EFBFDF /* ViewController.swift */; };
 		8814A23C1D5F9C9200EFBFDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814A23A1D5F9C9200EFBFDF /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		8814A2441D5F9C9200EFBFDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8814A2421D5F9C9200EFBFDF /* LaunchScreen.storyboard */; };
 		8814A24F1D5F9C9300EFBFDF /* StonerMessengerAWSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814A24E1D5F9C9300EFBFDF /* StonerMessengerAWSTests.swift */; };
 		8814A25A1D5F9C9300EFBFDF /* StonerMessengerAWSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8814A2591D5F9C9300EFBFDF /* StonerMessengerAWSUITests.swift */; };
+		8814A26F1D5FA05500EFBFDF /* MAXBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814A26A1D5FA05500EFBFDF /* MAXBlockButton.m */; };
+		8814A2701D5FA05500EFBFDF /* MAXFadeBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814A26C1D5FA05500EFBFDF /* MAXFadeBlockButton.m */; };
+		8814A2711D5FA05500EFBFDF /* MAXSelectedContentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814A26E1D5FA05500EFBFDF /* MAXSelectedContentButton.m */; };
+		8814A27B1D5FA19C00EFBFDF /* MAXBlockTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8814A27A1D5FA19C00EFBFDF /* MAXBlockTextField.m */; };
+		DF81CB8F3ADF30F782AEE338 /* Pods_StonerMessengerAWS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EA19F8D8377E44E250D2D7 /* Pods_StonerMessengerAWS.framework */; };
+		F729A15772E5A16E970F246C /* Pods_StonerMessengerAWSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1217C49FFFBB20D8278B900E /* Pods_StonerMessengerAWSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01ED0BC061B06D0B681575D4 /* Pods-StonerMessengerAWS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StonerMessengerAWS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StonerMessengerAWS/Pods-StonerMessengerAWS.debug.xcconfig"; sourceTree = "<group>"; };
+		09AEF10FEFCC53E477AACDCA /* Pods-StonerMessengerAWSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StonerMessengerAWSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StonerMessengerAWSTests/Pods-StonerMessengerAWSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1217C49FFFBB20D8278B900E /* Pods_StonerMessengerAWSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StonerMessengerAWSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCAE627ABEA35366A09AC19 /* Pods_StonerMessengerAWSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StonerMessengerAWSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CEBD0D721CDB117866050B /* Pods-StonerMessengerAWSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StonerMessengerAWSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StonerMessengerAWSUITests/Pods-StonerMessengerAWSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8814A2331D5F9C9200EFBFDF /* StonerMessengerAWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StonerMessengerAWS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8814A2361D5F9C9200EFBFDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8814A2381D5F9C9200EFBFDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,19 @@
 		8814A2551D5F9C9300EFBFDF /* StonerMessengerAWSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StonerMessengerAWSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8814A2591D5F9C9300EFBFDF /* StonerMessengerAWSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonerMessengerAWSUITests.swift; sourceTree = "<group>"; };
 		8814A25B1D5F9C9300EFBFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8814A2691D5FA05500EFBFDF /* MAXBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAXBlockButton.h; sourceTree = "<group>"; };
+		8814A26A1D5FA05500EFBFDF /* MAXBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAXBlockButton.m; sourceTree = "<group>"; };
+		8814A26B1D5FA05500EFBFDF /* MAXFadeBlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAXFadeBlockButton.h; sourceTree = "<group>"; };
+		8814A26C1D5FA05500EFBFDF /* MAXFadeBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAXFadeBlockButton.m; sourceTree = "<group>"; };
+		8814A26D1D5FA05500EFBFDF /* MAXSelectedContentButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAXSelectedContentButton.h; sourceTree = "<group>"; };
+		8814A26E1D5FA05500EFBFDF /* MAXSelectedContentButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAXSelectedContentButton.m; sourceTree = "<group>"; };
+		8814A2771D5FA0BD00EFBFDF /* StonerMessengerAWS-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StonerMessengerAWS-BridgingHeader.h"; sourceTree = "<group>"; };
+		8814A2791D5FA19C00EFBFDF /* MAXBlockTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAXBlockTextField.h; sourceTree = "<group>"; };
+		8814A27A1D5FA19C00EFBFDF /* MAXBlockTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAXBlockTextField.m; sourceTree = "<group>"; };
+		92EA19F8D8377E44E250D2D7 /* Pods_StonerMessengerAWS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StonerMessengerAWS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13BB6FC60D6B0CB8E7A14B2 /* Pods-StonerMessengerAWS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StonerMessengerAWS.release.xcconfig"; path = "Pods/Target Support Files/Pods-StonerMessengerAWS/Pods-StonerMessengerAWS.release.xcconfig"; sourceTree = "<group>"; };
+		F54522484EF5382C72CD53AB /* Pods-StonerMessengerAWSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StonerMessengerAWSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StonerMessengerAWSUITests/Pods-StonerMessengerAWSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD44BF25617CC28BE760F704 /* Pods-StonerMessengerAWSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StonerMessengerAWSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StonerMessengerAWSTests/Pods-StonerMessengerAWSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF81CB8F3ADF30F782AEE338 /* Pods_StonerMessengerAWS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F729A15772E5A16E970F246C /* Pods_StonerMessengerAWSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +97,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868D12BE3CC3F7651D8BD354 /* Pods_StonerMessengerAWSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001BB29458BAB064ADFF1584 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01ED0BC061B06D0B681575D4 /* Pods-StonerMessengerAWS.debug.xcconfig */,
+				D13BB6FC60D6B0CB8E7A14B2 /* Pods-StonerMessengerAWS.release.xcconfig */,
+				09AEF10FEFCC53E477AACDCA /* Pods-StonerMessengerAWSTests.debug.xcconfig */,
+				FD44BF25617CC28BE760F704 /* Pods-StonerMessengerAWSTests.release.xcconfig */,
+				F54522484EF5382C72CD53AB /* Pods-StonerMessengerAWSUITests.debug.xcconfig */,
+				36CEBD0D721CDB117866050B /* Pods-StonerMessengerAWSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		13FB3BE84B5234674DD3ED31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92EA19F8D8377E44E250D2D7 /* Pods_StonerMessengerAWS.framework */,
+				1217C49FFFBB20D8278B900E /* Pods_StonerMessengerAWSTests.framework */,
+				2DCAE627ABEA35366A09AC19 /* Pods_StonerMessengerAWSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8814A22A1D5F9C9200EFBFDF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +134,8 @@
 				8814A24D1D5F9C9300EFBFDF /* StonerMessengerAWSTests */,
 				8814A2581D5F9C9300EFBFDF /* StonerMessengerAWSUITests */,
 				8814A2341D5F9C9200EFBFDF /* Products */,
+				001BB29458BAB064ADFF1584 /* Pods */,
+				13FB3BE84B5234674DD3ED31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +152,8 @@
 		8814A2351D5F9C9200EFBFDF /* StonerMessengerAWS */ = {
 			isa = PBXGroup;
 			children = (
+				8814A2761D5FA0A600EFBFDF /* Bridging Header */,
+				8814A2671D5FA02600EFBFDF /* Reusable Components */,
 				8814A2361D5F9C9200EFBFDF /* AppDelegate.swift */,
 				8814A2381D5F9C9200EFBFDF /* ViewController.swift */,
 				8814A23A1D5F9C9200EFBFDF /* Main.storyboard */,
@@ -128,6 +183,45 @@
 			path = StonerMessengerAWSUITests;
 			sourceTree = "<group>";
 		};
+		8814A2671D5FA02600EFBFDF /* Reusable Components */ = {
+			isa = PBXGroup;
+			children = (
+				8814A2681D5FA04B00EFBFDF /* Buttons */,
+				8814A2781D5FA0F900EFBFDF /* Text Field */,
+			);
+			name = "Reusable Components";
+			sourceTree = "<group>";
+		};
+		8814A2681D5FA04B00EFBFDF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8814A2691D5FA05500EFBFDF /* MAXBlockButton.h */,
+				8814A26A1D5FA05500EFBFDF /* MAXBlockButton.m */,
+				8814A26B1D5FA05500EFBFDF /* MAXFadeBlockButton.h */,
+				8814A26C1D5FA05500EFBFDF /* MAXFadeBlockButton.m */,
+				8814A26D1D5FA05500EFBFDF /* MAXSelectedContentButton.h */,
+				8814A26E1D5FA05500EFBFDF /* MAXSelectedContentButton.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		8814A2761D5FA0A600EFBFDF /* Bridging Header */ = {
+			isa = PBXGroup;
+			children = (
+				8814A2771D5FA0BD00EFBFDF /* StonerMessengerAWS-BridgingHeader.h */,
+			);
+			name = "Bridging Header";
+			sourceTree = "<group>";
+		};
+		8814A2781D5FA0F900EFBFDF /* Text Field */ = {
+			isa = PBXGroup;
+			children = (
+				8814A2791D5FA19C00EFBFDF /* MAXBlockTextField.h */,
+				8814A27A1D5FA19C00EFBFDF /* MAXBlockTextField.m */,
+			);
+			name = "Text Field";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8814A25E1D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWS" */;
 			buildPhases = (
+				A1CED1726481B4FBA02E9778 /* [CP] Check Pods Manifest.lock */,
 				8814A22F1D5F9C9200EFBFDF /* Sources */,
 				8814A2301D5F9C9200EFBFDF /* Frameworks */,
 				8814A2311D5F9C9200EFBFDF /* Resources */,
+				5254ACAB40E78324F7DD193B /* [CP] Embed Pods Frameworks */,
+				5165E8BA0516097853528961 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8814A2611D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWSTests" */;
 			buildPhases = (
+				6FD4866BA216BCBC2D41A30E /* [CP] Check Pods Manifest.lock */,
 				8814A2461D5F9C9300EFBFDF /* Sources */,
 				8814A2471D5F9C9300EFBFDF /* Frameworks */,
 				8814A2481D5F9C9300EFBFDF /* Resources */,
+				BECAA1C9DC843CA2D44E5A71 /* [CP] Embed Pods Frameworks */,
+				58786F14F516B41D93C03798 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8814A2641D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWSUITests" */;
 			buildPhases = (
+				762923731089FC4CF6C250AD /* [CP] Check Pods Manifest.lock */,
 				8814A2511D5F9C9300EFBFDF /* Sources */,
 				8814A2521D5F9C9300EFBFDF /* Frameworks */,
 				8814A2531D5F9C9300EFBFDF /* Resources */,
+				A7DCB7866745A6188E3FF5AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +356,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5165E8BA0516097853528961 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StonerMessengerAWS/Pods-StonerMessengerAWS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5254ACAB40E78324F7DD193B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StonerMessengerAWS/Pods-StonerMessengerAWS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58786F14F516B41D93C03798 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StonerMessengerAWSTests/Pods-StonerMessengerAWSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FD4866BA216BCBC2D41A30E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		762923731089FC4CF6C250AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1CED1726481B4FBA02E9778 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7DCB7866745A6188E3FF5AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StonerMessengerAWSUITests/Pods-StonerMessengerAWSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECAA1C9DC843CA2D44E5A71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StonerMessengerAWSTests/Pods-StonerMessengerAWSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8814A22F1D5F9C9200EFBFDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8814A2701D5FA05500EFBFDF /* MAXFadeBlockButton.m in Sources */,
+				8814A27B1D5FA19C00EFBFDF /* MAXBlockTextField.m in Sources */,
+				8814A26F1D5FA05500EFBFDF /* MAXBlockButton.m in Sources */,
 				8814A23F1D5F9C9200EFBFDF /* StonerMessengerAWS.xcdatamodeld in Sources */,
 				8814A2391D5F9C9200EFBFDF /* ViewController.swift in Sources */,
 				8814A2371D5F9C9200EFBFDF /* AppDelegate.swift in Sources */,
+				8814A2711D5FA05500EFBFDF /* MAXSelectedContentButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,28 +630,33 @@
 		};
 		8814A25F1D5F9C9300EFBFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01ED0BC061B06D0B681575D4 /* Pods-StonerMessengerAWS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StonerMessengerAWS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.konta.StonerMessengerAWS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StonerMessengerAWS/StonerMessengerAWS-BridgingHeader.h";
 			};
 			name = Debug;
 		};
 		8814A2601D5F9C9300EFBFDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13BB6FC60D6B0CB8E7A14B2 /* Pods-StonerMessengerAWS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StonerMessengerAWS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.konta.StonerMessengerAWS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StonerMessengerAWS/StonerMessengerAWS-BridgingHeader.h";
 			};
 			name = Release;
 		};
 		8814A2621D5F9C9300EFBFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09AEF10FEFCC53E477AACDCA /* Pods-StonerMessengerAWSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = StonerMessengerAWSTests/Info.plist;
@@ -435,6 +669,7 @@
 		};
 		8814A2631D5F9C9300EFBFDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD44BF25617CC28BE760F704 /* Pods-StonerMessengerAWSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = StonerMessengerAWSTests/Info.plist;
@@ -447,6 +682,7 @@
 		};
 		8814A2651D5F9C9300EFBFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54522484EF5382C72CD53AB /* Pods-StonerMessengerAWSUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = StonerMessengerAWSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +694,7 @@
 		};
 		8814A2661D5F9C9300EFBFDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36CEBD0D721CDB117866050B /* Pods-StonerMessengerAWSUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = StonerMessengerAWSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -486,6 +723,7 @@
 				8814A2601D5F9C9300EFBFDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8814A2611D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWSTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +732,7 @@
 				8814A2631D5F9C9300EFBFDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8814A2641D5F9C9300EFBFDF /* Build configuration list for PBXNativeTarget "StonerMessengerAWSUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +741,7 @@
 				8814A2661D5F9C9300EFBFDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
